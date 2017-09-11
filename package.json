@@ -1,0 +1,25 @@
+{
+  "name": "vue-testing-karma-jasmine",
+  "version": "1.0.0",
+  "description": "Testing Vue with Karma test runner and Jasmine test framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zitongliu/vue-testing-karma-jasmine.git"
+  },
+  "keywords": [
+    "vue",
+    "karma",
+    "jasmine",
+    "webpack"
+  ],
+  "author": "Steve Liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zitongliu/vue-testing-karma-jasmine/issues"
+  },
+  "homepage": "https://github.com/zitongliu/vue-testing-karma-jasmine#readme"
+}
