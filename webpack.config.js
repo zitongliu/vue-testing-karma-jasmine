@@ -1,5 +1,11 @@
 const path = require('path');
 
+const configResolve = {
+  alias: {
+    vue: 'vue/dist/vue.js'
+  }
+}
+
 const config = {
   entry: './src/index.js',
   output: {
@@ -15,7 +21,8 @@ const config = {
         exclude: /node_modules/
       }
     ]
-  }
+  },
+  resolve: configResolve
 }
 
 module.exports = config;
