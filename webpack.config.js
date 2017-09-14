@@ -19,6 +19,11 @@ const config = {
         use: 'babel-loader',
         test: /\.js$/,
         exclude: /node_modules/
+      },
+      {
+        use: 'vue-loader',
+        test: /\.vue$/,
+        exclude: /node_modules/
       }
     ]
   },
